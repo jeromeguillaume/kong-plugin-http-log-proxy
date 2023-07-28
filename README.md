@@ -8,4 +8,3 @@ The proxy parameters are:
 - `https_proxy`: an URI to a proxy server to be used with HTTPS requests
 - `https_proxy_authorization`: as http_proxy_authorization but for use with https_proxy (since with HTTPS the authorisation is done when connecting, this one cannot be overridden by passing the Proxy-Authorization request header).
 - `no_proxy`: a comma separated list of hosts that should not be proxied.
- 
