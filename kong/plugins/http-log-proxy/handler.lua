@@ -119,7 +119,7 @@ local function send_entries(conf, entries)
     ["Content-Length"] = content_length,
     ["Authorization"] = userinfo and "Basic " .. encode_base64(userinfo) or nil
   }
-   
+  
   if conf.headers then
     for h, v in pairs(conf.headers) do
       headers[h] = headers[h] or v -- don't override Host, Content-Type, Content-Length, Authorization
