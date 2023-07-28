@@ -1,6 +1,6 @@
 # Kong plugin: lets you send request and response logs to an HTTP server through a proxy
 
-The `http-log-proxy` plugin extends the capacity of [HTTP Log plugin](https://docs.konghq.com/hub/kong-inc/http-log/) by providing the proxy tunneling.
+The `http-log-proxy` plugin extends the capacity of [HTTP Log plugin](https://docs.konghq.com/hub/kong-inc/http-log/) by providing the proxy tunneling
 
 The proxy parameters are:
 - `http_proxy`: an URI to a proxy server to be used with HTTP requests
